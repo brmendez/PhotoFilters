@@ -14,6 +14,14 @@
 		45E3AD2919EC34800026F01A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD2819EC34800026F01A /* Images.xcassets */; };
 		45E3AD2C19EC34800026F01A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD2A19EC34800026F01A /* LaunchScreen.xib */; };
 		45E3AD3819EC34800026F01A /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD3719EC34800026F01A /* PhotoFiltersTests.swift */; };
+		45E3AD4519EC3C9B0026F01A /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD4419EC3C9B0026F01A /* GalleryViewController.swift */; };
+		45E3AD4D19EC44E50026F01A /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD4C19EC44E50026F01A /* GalleryCell.swift */; };
+		45E3AD6019EC6FB40026F01A /* photo1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5A19EC6FB40026F01A /* photo1.jpeg */; };
+		45E3AD6119EC6FB40026F01A /* photo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5B19EC6FB40026F01A /* photo2.jpeg */; };
+		45E3AD6219EC6FB40026F01A /* photo3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5C19EC6FB40026F01A /* photo3.jpeg */; };
+		45E3AD6319EC6FB40026F01A /* photo4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5D19EC6FB40026F01A /* photo4.jpeg */; };
+		45E3AD6419EC6FB40026F01A /* photo6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5E19EC6FB40026F01A /* photo6.jpeg */; };
+		45E3AD6519EC6FB40026F01A /* photo5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5F19EC6FB40026F01A /* photo5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +37,7 @@
 /* Begin PBXFileReference section */
 		45E3AD1919EC34800026F01A /* PhotoFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E3AD1D19EC34800026F01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45E3AD1E19EC34800026F01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45E3AD1E19EC34800026F01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../PhotoFilters/AppDelegate.swift; sourceTree = "<group>"; };
 		45E3AD2119EC34800026F01A /* PhotoFilters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoFilters.xcdatamodel; sourceTree = "<group>"; };
 		45E3AD2319EC34800026F01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45E3AD2619EC34800026F01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +46,14 @@
 		45E3AD3119EC34800026F01A /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E3AD3619EC34800026F01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E3AD3719EC34800026F01A /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
+		45E3AD4419EC3C9B0026F01A /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		45E3AD4C19EC44E50026F01A /* GalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		45E3AD5A19EC6FB40026F01A /* photo1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpeg; sourceTree = "<group>"; };
+		45E3AD5B19EC6FB40026F01A /* photo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpeg; sourceTree = "<group>"; };
+		45E3AD5C19EC6FB40026F01A /* photo3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpeg; sourceTree = "<group>"; };
+		45E3AD5D19EC6FB40026F01A /* photo4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpeg; sourceTree = "<group>"; };
+		45E3AD5E19EC6FB40026F01A /* photo6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpeg; sourceTree = "<group>"; };
+		45E3AD5F19EC6FB40026F01A /* photo5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +95,10 @@
 		45E3AD1B19EC34800026F01A /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
-				45E3AD1E19EC34800026F01A /* AppDelegate.swift */,
-				45E3AD2319EC34800026F01A /* ViewController.swift */,
-				45E3AD2519EC34800026F01A /* Main.storyboard */,
+				45E3AD4319EC34960026F01A /* Controller Layer */,
+				45E3AD4219EC348B0026F01A /* View Layer */,
+				45E3AD4119EC34860026F01A /* Model Layer */,
 				45E3AD2819EC34800026F01A /* Images.xcassets */,
-				45E3AD2A19EC34800026F01A /* LaunchScreen.xib */,
 				45E3AD2019EC34800026F01A /* PhotoFilters.xcdatamodeld */,
 				45E3AD1C19EC34800026F01A /* Supporting Files */,
 			);
@@ -93,6 +108,12 @@
 		45E3AD1C19EC34800026F01A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45E3AD5A19EC6FB40026F01A /* photo1.jpeg */,
+				45E3AD5B19EC6FB40026F01A /* photo2.jpeg */,
+				45E3AD5C19EC6FB40026F01A /* photo3.jpeg */,
+				45E3AD5D19EC6FB40026F01A /* photo4.jpeg */,
+				45E3AD5F19EC6FB40026F01A /* photo5.jpeg */,
+				45E3AD5E19EC6FB40026F01A /* photo6.jpeg */,
 				45E3AD1D19EC34800026F01A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -101,6 +122,7 @@
 		45E3AD3419EC34800026F01A /* PhotoFiltersTests */ = {
 			isa = PBXGroup;
 			children = (
+				45E3AD1E19EC34800026F01A /* AppDelegate.swift */,
 				45E3AD3719EC34800026F01A /* PhotoFiltersTests.swift */,
 				45E3AD3519EC34800026F01A /* Supporting Files */,
 			);
@@ -113,6 +135,32 @@
 				45E3AD3619EC34800026F01A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E3AD4119EC34860026F01A /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		45E3AD4219EC348B0026F01A /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD2519EC34800026F01A /* Main.storyboard */,
+				45E3AD2A19EC34800026F01A /* LaunchScreen.xib */,
+			);
+			name = "View Layer";
+			sourceTree = "<group>";
+		};
+		45E3AD4319EC34960026F01A /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD2319EC34800026F01A /* ViewController.swift */,
+				45E3AD4419EC3C9B0026F01A /* GalleryViewController.swift */,
+				45E3AD4C19EC44E50026F01A /* GalleryCell.swift */,
+			);
+			name = "Controller Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E3AD6519EC6FB40026F01A /* photo5.jpeg in Resources */,
+				45E3AD6219EC6FB40026F01A /* photo3.jpeg in Resources */,
+				45E3AD6419EC6FB40026F01A /* photo6.jpeg in Resources */,
+				45E3AD6319EC6FB40026F01A /* photo4.jpeg in Resources */,
+				45E3AD6119EC6FB40026F01A /* photo2.jpeg in Resources */,
 				45E3AD2719EC34800026F01A /* Main.storyboard in Resources */,
 				45E3AD2C19EC34800026F01A /* LaunchScreen.xib in Resources */,
+				45E3AD6019EC6FB40026F01A /* photo1.jpeg in Resources */,
 				45E3AD2919EC34800026F01A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E3AD2419EC34800026F01A /* ViewController.swift in Sources */,
+				45E3AD4D19EC44E50026F01A /* GalleryCell.swift in Sources */,
+				45E3AD4519EC3C9B0026F01A /* GalleryViewController.swift in Sources */,
 				45E3AD2219EC34800026F01A /* PhotoFilters.xcdatamodeld in Sources */,
 				45E3AD1F19EC34800026F01A /* AppDelegate.swift in Sources */,
 			);

@@ -22,6 +22,8 @@
 		45E3AD6319EC6FB40026F01A /* photo4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5D19EC6FB40026F01A /* photo4.jpeg */; };
 		45E3AD6419EC6FB40026F01A /* photo6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5E19EC6FB40026F01A /* photo6.jpeg */; };
 		45E3AD6519EC6FB40026F01A /* photo5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD5F19EC6FB40026F01A /* photo5.jpeg */; };
+		45E3AD6719EC97FE0026F01A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD6619EC97FE0026F01A /* HeaderView.swift */; };
+		45E3AD6919EC98CC0026F01A /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD6819EC98CC0026F01A /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		45E3AD5D19EC6FB40026F01A /* photo4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpeg; sourceTree = "<group>"; };
 		45E3AD5E19EC6FB40026F01A /* photo6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpeg; sourceTree = "<group>"; };
 		45E3AD5F19EC6FB40026F01A /* photo5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpeg; sourceTree = "<group>"; };
+		45E3AD6619EC97FE0026F01A /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		45E3AD6819EC98CC0026F01A /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			children = (
 				45E3AD2319EC34800026F01A /* ViewController.swift */,
 				45E3AD4419EC3C9B0026F01A /* GalleryViewController.swift */,
+				45E3AD6619EC97FE0026F01A /* HeaderView.swift */,
+				45E3AD6819EC98CC0026F01A /* FooterView.swift */,
 				45E3AD4C19EC44E50026F01A /* GalleryCell.swift */,
 			);
 			name = "Controller Layer";
@@ -270,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E3AD2419EC34800026F01A /* ViewController.swift in Sources */,
+				45E3AD6919EC98CC0026F01A /* FooterView.swift in Sources */,
+				45E3AD6719EC97FE0026F01A /* HeaderView.swift in Sources */,
 				45E3AD4D19EC44E50026F01A /* GalleryCell.swift in Sources */,
 				45E3AD4519EC3C9B0026F01A /* GalleryViewController.swift in Sources */,
 				45E3AD2219EC34800026F01A /* PhotoFilters.xcdatamodeld in Sources */,

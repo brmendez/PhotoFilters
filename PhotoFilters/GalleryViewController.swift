@@ -14,7 +14,8 @@ protocol GalleryDelegate {
 }
 
 class GalleryViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-
+    
+    //the collection view gets an outlet
     @IBOutlet weak var collectionView: UICollectionView!
     
     var delegate : GalleryDelegate? // The delegate that I made under UIKit!
@@ -45,18 +46,35 @@ class GalleryViewController: UIViewController, UICollectionViewDataSource, UICol
         
     }
     
+    func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
+        
+        if kind == UICollectionElementKindSectionHeader {
+            let view = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "HEADER", forIndexPath: indexPath) as HeaderView
+                view.headerTitleLabel.text = "Photo Album"
+            return view
+        } else {
+            let view = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "FOOTER", forIndexPath: indexPath) as FooterView
+            view.footerCountLabel.text = "\(images.count.description) Photos"
+            return view
+        }
+    }
+    
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.images.count
     }
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("GALLERY_CELL", forIndexPath: indexPath) as GalleryCell
-        
-        cell.backgroundColor = UIColor.purpleColor()
+
         cell.imageView.image = images[indexPath.row]
         
         return cell
         
     }
+    
 
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         self.delegate?.didTapOnPicture(self.images[indexPath.row])

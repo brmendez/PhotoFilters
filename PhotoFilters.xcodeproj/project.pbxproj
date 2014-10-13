@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45E3AD1F19EC34800026F01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD1E19EC34800026F01A /* AppDelegate.swift */; };
+		45E3AD2219EC34800026F01A /* PhotoFilters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD2019EC34800026F01A /* PhotoFilters.xcdatamodeld */; };
+		45E3AD2419EC34800026F01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD2319EC34800026F01A /* ViewController.swift */; };
+		45E3AD2719EC34800026F01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD2519EC34800026F01A /* Main.storyboard */; };
+		45E3AD2919EC34800026F01A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD2819EC34800026F01A /* Images.xcassets */; };
+		45E3AD2C19EC34800026F01A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AD2A19EC34800026F01A /* LaunchScreen.xib */; };
+		45E3AD3819EC34800026F01A /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E3AD3719EC34800026F01A /* PhotoFiltersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E3AD3219EC34800026F01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E3AD1119EC34800026F01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E3AD1819EC34800026F01A;
+			remoteInfo = PhotoFilters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45E3AD1919EC34800026F01A /* PhotoFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E3AD1D19EC34800026F01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E3AD1E19EC34800026F01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45E3AD2119EC34800026F01A /* PhotoFilters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoFilters.xcdatamodel; sourceTree = "<group>"; };
+		45E3AD2319EC34800026F01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45E3AD2619EC34800026F01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45E3AD2819EC34800026F01A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45E3AD2B19EC34800026F01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45E3AD3119EC34800026F01A /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E3AD3619EC34800026F01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E3AD3719EC34800026F01A /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E3AD1619EC34800026F01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E3AD2E19EC34800026F01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E3AD1019EC34800026F01A = {
+			isa = PBXGroup;
+			children = (
+				45E3AD1B19EC34800026F01A /* PhotoFilters */,
+				45E3AD3419EC34800026F01A /* PhotoFiltersTests */,
+				45E3AD1A19EC34800026F01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E3AD1A19EC34800026F01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD1919EC34800026F01A /* PhotoFilters.app */,
+				45E3AD3119EC34800026F01A /* PhotoFiltersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E3AD1B19EC34800026F01A /* PhotoFilters */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD1E19EC34800026F01A /* AppDelegate.swift */,
+				45E3AD2319EC34800026F01A /* ViewController.swift */,
+				45E3AD2519EC34800026F01A /* Main.storyboard */,
+				45E3AD2819EC34800026F01A /* Images.xcassets */,
+				45E3AD2A19EC34800026F01A /* LaunchScreen.xib */,
+				45E3AD2019EC34800026F01A /* PhotoFilters.xcdatamodeld */,
+				45E3AD1C19EC34800026F01A /* Supporting Files */,
+			);
+			path = PhotoFilters;
+			sourceTree = "<group>";
+		};
+		45E3AD1C19EC34800026F01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD1D19EC34800026F01A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E3AD3419EC34800026F01A /* PhotoFiltersTests */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD3719EC34800026F01A /* PhotoFiltersTests.swift */,
+				45E3AD3519EC34800026F01A /* Supporting Files */,
+			);
+			path = PhotoFiltersTests;
+			sourceTree = "<group>";
+		};
+		45E3AD3519EC34800026F01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E3AD3619EC34800026F01A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E3AD1819EC34800026F01A /* PhotoFilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E3AD3B19EC34800026F01A /* Build configuration list for PBXNativeTarget "PhotoFilters" */;
+			buildPhases = (
+				45E3AD1519EC34800026F01A /* Sources */,
+				45E3AD1619EC34800026F01A /* Frameworks */,
+				45E3AD1719EC34800026F01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoFilters;
+			productName = PhotoFilters;
+			productReference = 45E3AD1919EC34800026F01A /* PhotoFilters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45E3AD3019EC34800026F01A /* PhotoFiltersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E3AD3E19EC34800026F01A /* Build configuration list for PBXNativeTarget "PhotoFiltersTests" */;
+			buildPhases = (
+				45E3AD2D19EC34800026F01A /* Sources */,
+				45E3AD2E19EC34800026F01A /* Frameworks */,
+				45E3AD2F19EC34800026F01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45E3AD3319EC34800026F01A /* PBXTargetDependency */,
+			);
+			name = PhotoFiltersTests;
+			productName = PhotoFiltersTests;
+			productReference = 45E3AD3119EC34800026F01A /* PhotoFiltersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E3AD1119EC34800026F01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Brian Mendez";
+				TargetAttributes = {
+					45E3AD1819EC34800026F01A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					45E3AD3019EC34800026F01A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 45E3AD1819EC34800026F01A;
+					};
+				};
+			};
+			buildConfigurationList = 45E3AD1419EC34800026F01A /* Build configuration list for PBXProject "PhotoFilters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45E3AD1019EC34800026F01A;
+			productRefGroup = 45E3AD1A19EC34800026F01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E3AD1819EC34800026F01A /* PhotoFilters */,
+				45E3AD3019EC34800026F01A /* PhotoFiltersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E3AD1719EC34800026F01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E3AD2719EC34800026F01A /* Main.storyboard in Resources */,
+				45E3AD2C19EC34800026F01A /* LaunchScreen.xib in Resources */,
+				45E3AD2919EC34800026F01A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E3AD2F19EC34800026F01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E3AD1519EC34800026F01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E3AD2419EC34800026F01A /* ViewController.swift in Sources */,
+				45E3AD2219EC34800026F01A /* PhotoFilters.xcdatamodeld in Sources */,
+				45E3AD1F19EC34800026F01A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E3AD2D19EC34800026F01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E3AD3819EC34800026F01A /* PhotoFiltersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45E3AD3319EC34800026F01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E3AD1819EC34800026F01A /* PhotoFilters */;
+			targetProxy = 45E3AD3219EC34800026F01A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45E3AD2519EC34800026F01A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E3AD2619EC34800026F01A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45E3AD2A19EC34800026F01A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E3AD2B19EC34800026F01A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E3AD3919EC34800026F01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45E3AD3A19EC34800026F01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E3AD3C19EC34800026F01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoFilters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45E3AD3D19EC34800026F01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoFilters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45E3AD3F19EC34800026F01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoFiltersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFilters.app/PhotoFilters";
+			};
+			name = Debug;
+		};
+		45E3AD4019EC34800026F01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoFiltersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoFilters.app/PhotoFilters";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E3AD1419EC34800026F01A /* Build configuration list for PBXProject "PhotoFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E3AD3919EC34800026F01A /* Debug */,
+				45E3AD3A19EC34800026F01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E3AD3B19EC34800026F01A /* Build configuration list for PBXNativeTarget "PhotoFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E3AD3C19EC34800026F01A /* Debug */,
+				45E3AD3D19EC34800026F01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45E3AD3E19EC34800026F01A /* Build configuration list for PBXNativeTarget "PhotoFiltersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E3AD3F19EC34800026F01A /* Debug */,
+				45E3AD4019EC34800026F01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45E3AD2019EC34800026F01A /* PhotoFilters.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45E3AD2119EC34800026F01A /* PhotoFilters.xcdatamodel */,
+			);
+			currentVersion = 45E3AD2119EC34800026F01A /* PhotoFilters.xcdatamodel */;
+			path = PhotoFilters.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45E3AD1119EC34800026F01A /* Project object */;
+}

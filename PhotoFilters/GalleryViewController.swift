@@ -35,6 +35,8 @@ class GalleryViewController: UIViewController, UICollectionViewDataSource, UICol
         var image5 = UIImage(named: "photo5.jpeg")
         var image6 = UIImage(named: "photo6.jpeg")
         
+        //test for GitHub
+        
         self.images.append(image1!)
         self.images.append(image2!)
         self.images.append(image3!)

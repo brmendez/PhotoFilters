@@ -51,14 +51,18 @@ class GalleryViewController: UIViewController, UICollectionViewDataSource, UICol
         if kind == UICollectionElementKindSectionHeader {
             let view = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "HEADER", forIndexPath: indexPath) as HeaderView
                 view.headerTitleLabel.text = "Photo Album"
+            println(kind)
             return view
         } else {
             let view = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "FOOTER", forIndexPath: indexPath) as FooterView
             view.footerCountLabel.text = "\(images.count.description) Photos"
+            println(kind)
+            println(view)
             return view
         }
     }
-    
+
+    //App still runs without function below.
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }

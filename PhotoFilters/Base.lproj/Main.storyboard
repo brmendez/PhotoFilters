@@ -93,13 +93,19 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHL-fQ-BYm">
-                                            <rect key="frame" x="203" y="14" width="82" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHL-fQ-BYm">
+                                            <rect key="frame" x="277" y="14" width="47" height="21"/>
+                                            <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="dHL-fQ-BYm" firstAttribute="centerX" secondItem="l9j-kB-QzV" secondAttribute="centerX" id="98g-Oz-x2M"/>
+                                        <constraint firstItem="dHL-fQ-BYm" firstAttribute="top" secondItem="l9j-kB-QzV" secondAttribute="topMargin" constant="6" id="BJi-24-CNJ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="dHL-fQ-BYm" secondAttribute="bottom" constant="7" id="ROi-gf-qbX"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="dHL-fQ-BYm" secondAttribute="bottom" constant="7" id="tOD-aK-lXC"/>
+                                    </constraints>
                                     <connections>
                                         <outlet property="headerTitleLabel" destination="dHL-fQ-BYm" id="HV7-Lr-W8I"/>
                                     </connections>
@@ -108,13 +114,21 @@
                                     <rect key="frame" x="0.0" y="180" width="600" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEi-me-cSF">
-                                            <rect key="frame" x="204" y="12" width="168" height="42"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEi-me-cSF">
+                                            <rect key="frame" x="216" y="10" width="168" height="42"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="168" id="xWo-ak-Zhy"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="16"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="AEi-me-cSF" firstAttribute="top" secondItem="uIQ-3p-JuQ" secondAttribute="topMargin" constant="2" id="KBy-R3-rFw"/>
+                                        <constraint firstItem="AEi-me-cSF" firstAttribute="centerX" secondItem="uIQ-3p-JuQ" secondAttribute="centerX" id="aVt-s2-UAG"/>
+                                        <constraint firstItem="AEi-me-cSF" firstAttribute="centerY" secondItem="uIQ-3p-JuQ" secondAttribute="centerY" id="qYP-Ux-e5h"/>
+                                    </constraints>
                                     <connections>
                                         <outlet property="footerCountLabel" destination="AEi-me-cSF" id="LRh-uF-LVP"/>
                                     </connections>
